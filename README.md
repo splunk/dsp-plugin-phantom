@@ -1,9 +1,9 @@
 # dsp-plugin-phantom
 ## Plugin Overview
 The Phantom DSP plugin is built using the Java SDK. It comes with three functions: 
-1. Trigger Phantom Action: this is a bidirectional integration that allows users to execute any Phantom action and capture the corrsponding response.
+1. Trigger Phantom Action: this is a bidirectional integration that allows users to execute any Phantom action and capture the corresponding response.
 2. Trigger Phantom Playbook: allows to trigger any Phantom playbook execution from a DSP pipeline
-3. Trigger Phantom Case or Event: allows to trigger an event or a case in Phantom and pass to it any field dynamically. The fields passed would be used in the artifact creation on that event or case. Fields can be any standard CEF field or custom one. 
+3. Trigger Phantom Case or Event: allows to trigger an event or a case in Phantom and pass any dynamic field to it. The fields passed would be used in the artifact creation on that Phantom event or case. Fields can be any standard CEF field or custom one. 
 
 For deploying the plugin, you can either use the pre-compiled code jar file by following steps on 'Option 1' of the installation section or download the java code, customize to your need and compile the code yourself in 'Option 2' of that section. 
 
